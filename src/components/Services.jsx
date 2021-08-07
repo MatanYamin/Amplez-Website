@@ -7,20 +7,21 @@ function Services() {
     return (
         <div id='services'>
          <div className='s-heading'>
+             <br/><br/>
              <h1>Services</h1>
-                <h1>Features</h1>
+                {/* <h1>Features</h1> */}
                 <p>Here are some Services...</p>
             </div>
             <div className='b-container'>
                 <Box 
                 image={image1}
                 alte='image1'
-                button='PYTHON'
+                button='SOMETHING'
                 />
                 <Box 
                 image={image2}
                 alte='image2'
-                button='REACT'
+                button='SOMETHING'
                 />
             </div>
         </div>

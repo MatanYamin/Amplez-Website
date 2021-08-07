@@ -17,10 +17,9 @@ function Navbar() {
                     <li><Link to='main' className='active' smooth={true} duration={1000}>Home</Link></li>
                     <li><Link to='features' smooth={true} duration={1000}>Features</Link></li>
                     <li><Link to='services' smooth={true} duration={1000}>Services</Link></li>
-                    <li><Link to='subscribe' smooth={true} duration={1000}>Subscribe</Link></li>
-                    <li><Link to='#' >Contact</Link></li>
+                    <li><Link to='contactus' smooth={true} duration={1000}>CONTACT US</Link></li>
                 </ul>
-                <Link to='#' className='hey'>To App</Link>
+                <Link href='https://play.google.com/store/apps/dev?id=7258376585183782826&gl=IL' className='hey'>To Store</Link>
             </nav>
         </div>
     )

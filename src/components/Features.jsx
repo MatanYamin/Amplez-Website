@@ -9,7 +9,7 @@ function Features() {
            </div>
            <div className='features-text'>
                <h2>Features</h2>
-               <h3>This application <span>Software</span> is Art</h3>
+               <h3>This application <span>Software</span> mady by Matan Yamin</h3>
                <p>Here we will write some text about something... and its gonna be awsome. 
                Here we will write some text about something... and its gonna be awsome. 
                </p>
