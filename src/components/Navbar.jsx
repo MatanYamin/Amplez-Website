@@ -7,7 +7,7 @@ function Navbar() {
         <div>
             <nav>
                 <Link to='main' className='logo' smooth={true} duration={1000}>
-                    <img src={logo} alt='logo' />
+            <Link to='main' smooth={true} duration={1000}><img src={logo} alt='logo' /></Link>
                 </Link>
                 <input className='menu-btn' type='checkbox' id='menu-btn' />
                 <label className='menu-icon' for='menu-btn'>
