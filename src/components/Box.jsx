@@ -8,9 +8,11 @@ function Box(props) {
          </div>
          <div className='s-b-text'>
              <p>
-                 This is a lot of text...  This is a lot of text... This is a lot of text... 
+                 <b>{props.title}</b>
+                 <br/>
+                 {props.details}
              </p>
-             <a href='#' className='cv-btn'>{props.button}</a>
+             <a href={props.link} className='cv-btn'>{props.button}</a>
          </div>
         </div>
     )
