@@ -14,7 +14,7 @@ function Navbar() {
                     <span className='nav-icon'></span>
                 </label>
                 <ul className='menu'>
-                    <li><Link to='main' className='active' smooth={true} duration={1000}>Home</Link></li>
+                    <li><Link to='main' className="active" smooth={true} duration={1000}>Home</Link></li>
                     <li><Link to='features' smooth={true} duration={1000}>About us</Link></li>
                     <li><Link to='services' smooth={true} duration={1000}>Apps</Link></li>
                     <li><Link to='contactus' smooth={true} duration={1000}>CONTACT US</Link></li>
