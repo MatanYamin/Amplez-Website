@@ -8,9 +8,9 @@ function Services() {
         <div id='services'>
          <div className='s-heading'>
              <br/><br/><br/>
-             <h1>Apps</h1>
+             <h1>Popular Apps</h1>
                 {/* <h1>Features</h1> */}
-                <p>Check out some of our most popular apps!</p>
+                {/* <p>Check out some of our most popular apps!</p> */}
             </div>
             <div className='b-container'>
                 <Box 
@@ -19,7 +19,7 @@ function Services() {
                 button='To App'
                 link="https://play.google.com/store/apps/details?id=com.amplez.lg_remote_akb"
                 title="Remote For LG webOS Smart TV"
-                details="Has InfraRed mode and smart webOS mode. Simply the best remote out there for LG TVs"
+                details="Over 5,000,000 downloads."
                 />
                 <Box 
                 image={image2}
@@ -27,10 +27,7 @@ function Services() {
                 button='To App'
                 link="https://play.google.com/store/apps/details?id=com.amplez.rokuremote"
                 title="Remote For Roku‏"
-                details="Remote For Roku TV
-                | TV Volume control
-                | Touch pad and keyboard
-                | Works via WiFi or IRﾟ"
+                details="Over 1,000,000 downloads.ﾟ"
                 />
             </div>
         </div>

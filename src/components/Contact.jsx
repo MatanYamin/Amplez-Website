@@ -35,7 +35,7 @@ function Contact() {
 
     return (
         <div id='contactus'>
-            <h3>Stay in Touch</h3>
+            <h3>Contact Form</h3>
             <span className="success-message">{successMessage}</span>    
             <br/>
                 <form onSubmit={handleSubmit(onSubmit)}>
@@ -58,8 +58,8 @@ function Contact() {
                             {errors.email && errors.email.message}
                         </span>
                         <div><br/></div>
-                        <div className="contactus-input">
-                        <input
+                        <div className="contactus-input2">
+                        <textarea
                         type="text"
                         placeholder="Your Message"
                         name="message"
@@ -84,12 +84,14 @@ function Contact() {
                 {/*  */}
                 {/*  */}
             <p className="text-center">
-            <span>zviyemin@gmail.com</span>
+            <span>ZviYamin@gmail.com</span>
             </p>
                 <p className="text-center">
               Copyright&copy;
               {new Date().getFullYear()}&nbsp;Zvi Yamin | All Rights Reserved
             </p>
+            <br/>
+            <a href="/">HOME</a>
         </div>
     )
 }
