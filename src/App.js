@@ -16,9 +16,9 @@ function App() {
     <>
     <Router>
       <Switch >
-      <Route path="/app-privacy-policy-zviyamin" >
-      <Privacy />
-      </Route>
+      <Route path="/app-privacy-policy-zviyamin" component={Privacy} />
+      {/* <Privacy /> */}
+      {/* </Route> */}
       <Route path="/contact" >
       <Contact />
       </Route>
