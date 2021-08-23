@@ -556,11 +556,17 @@ color:#242425;
   display: none;
 }
 .s-heading h1{
-  font-size: 2.5rem;
+  font-size: 1rem;
   color: #6cdffa;
 }
 .features-text h2{
   font-weight: 600;
+}
+.features-text h3{
+  font-size: .9rem;
+}
+.features-text p{
+  font-size: .75rem;
 }
 .b-container{
   margin-top: 30px;
@@ -569,11 +575,12 @@ color:#242425;
   font-size: 2.5rem;
 }
 #features{
-  margin-top: -60px;
+  /* margin-top: -60px; */
   justify-content: center;
   padding-top: 0px;
   font-size: 2rem;
-  text-align: center;
+  /* text-align: center; */
+  text-align: -webkit-left;
 }
 .f-heading{
   display: none;
@@ -606,6 +613,7 @@ color:#242425;
           height: 65px;
           padding: 0px 30px;
       }
+      
       .logo img{
           width:70px;
           border-radius: 5px;
