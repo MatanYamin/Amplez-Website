@@ -4,6 +4,8 @@ import Features from './components/Features';
 import Services from './components/Services';
 import Contact from './components/Contact';
 import Privacy from './components/Privacy';
+import Terms from './components/Terms';
+
 import {
   BrowserRouter as Router,
   Switch,
@@ -17,11 +19,13 @@ function App() {
     <Router>
       <Switch >
       <Route path="/app-privacy-policy-zviyamin" component={Privacy} />
+      <Route path="/app-terms-conditions-zviyamin" component={Terms} />
       {/* <Privacy /> */}
       {/* </Route> */}
-      <Route path="/contact" >
+      {/* sd */}
+      {/* <Route path="/contact" >
       <Contact />
-      </Route>
+      </Route> */}
       <Route path="/" >
     <div className="App">
       <Header />
@@ -31,7 +35,7 @@ function App() {
       </div>
       {/* <Features /> */}
       <Services />
-      <Contact />
+      {/* <Contact /> */}
     </div>
       </Route>
       </Switch>

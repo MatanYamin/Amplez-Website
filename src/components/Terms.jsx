@@ -10,7 +10,7 @@ function Privacy() {
                 {/* <img src='https://newocean.in/wp-content/uploads/2019/11/privacy-policy.jpg' alt='feature-image' /> */}
            {/* </div> */}
            <div className='features-text'>
-               <h2>Privacy Policy</h2>
+               <h2>Terms and Conditions</h2>
                <h3>
                    This Privacy Policy outlines the practices of ZviYamin . (the “Company“, ” we“, “us” or “our“) concerning the collection, use and disclosure of information pertaining to end users.
                     This Privacy Policy is a legally binding agreement between the Company and the Partner (the “Partner“). By accessing or using our Services, the Partner agrees to abide by and not derogate from the terms of this Privacy Policy, as amended from time to time, and consent to the collection and use of information in the manner set out in this Privacy Policy. We encourage our Partner to periodically review this Privacy Policy.
