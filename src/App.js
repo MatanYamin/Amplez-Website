@@ -35,7 +35,7 @@ function App() {
       </div>
       {/* <Features /> */}
       <Services />
-      {/* <Contact /> */}
+      <Contact />
     </div>
       </Route>
       </Switch>
