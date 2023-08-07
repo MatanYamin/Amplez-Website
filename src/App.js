@@ -18,8 +18,8 @@ function App() {
     <>
     <Router>
       <Switch >
-      <Route path="/app-privacy-policy-zviyamin" component={Privacy} />
-      <Route path="/app-terms-conditions-zviyamin" component={Terms} />
+      <Route path="/privacy_policy" component={Privacy} />
+      <Route path="/terms_conditions_snakesltd" component={Terms} />
       {/* <Privacy /> */}
       {/* </Route> */}
       {/* sd */}
