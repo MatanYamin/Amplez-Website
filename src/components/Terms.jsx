@@ -59,7 +59,7 @@ This EULA constitutes the entire agreement between you and Company and supersede
 </ul>
 
                </p>
-               <a href="https://play.google.com/store/apps/dev?id=7258376585183782826&gl=IL">
+               <a href="https://zviyamin.com/">
                <button onclick="/" type="button">Back To Home Page</button>
                <br/><br/>
                </a>

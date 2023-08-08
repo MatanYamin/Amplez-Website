@@ -87,7 +87,7 @@ If you have any questions or concerns about our privacy policy, please contact u
 </ul>
 
                </p>
-               <a href="https://play.google.com/store/apps/dev?id=7258376585183782826&gl=IL">
+               <a href="https://zviyamin.com/">
                <button onclick="/" type="button">Back To Home Page</button>
                <br/><br/>
                </a>
