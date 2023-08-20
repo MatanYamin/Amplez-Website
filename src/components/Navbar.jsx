@@ -18,8 +18,11 @@ function Navbar() {
                     {/* <li><Link to='features' smooth={true} duration={1000}>About us</Link></li> */}
                     <li><Link to='services' smooth={true} duration={1000}>Apps</Link></li>
                     <li><Link to='contactus' smooth={true} duration={1000}>CONTACT US</Link></li>
-                    <li><Link to="/privacy_policy" > PRIVACY POLICY</Link></li>
-                    <li><Link to='/terms_conditions_snakesltd'> TERMS OF SERVICE</Link></li>
+                    <li><a href ="https://zviyamin.com/privacy_policy" > PRIVACY POLICY</a></li>
+                    <li><a href ="https://zviyamin.com/terms_conditions_snakesltd" > TERMS OF SERVICE</a></li>
+
+                    {/* <li><Link to="https://zviyamin.com/privacy_policy" > PRIVACY POLICY</Link></li> */}
+                    {/* <li><Link to='/terms_conditions_snakesltd'> TERMS OF SERVICE</Link></li> */}
                 </ul>
                 {/* <Link href='https://play.google.com/store/apps/dev?id=7258376585183782826&gl=IL' className='hey'>Apps</Link> */}
             </nav>
