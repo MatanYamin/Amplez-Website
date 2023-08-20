@@ -84,7 +84,7 @@ function Contact() {
                 {/*  */}
                 {/*  */}
             <p className="text-center">
-            <span>ZviYamin@gmail.com</span>
+            <span>support@zviyamin.com</span>
             </p>
                 <p className="text-center">
               Copyright&copy;

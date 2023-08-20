@@ -46,8 +46,9 @@ input{
   border: none;
 }
 .logo img{
-  width: 175px;
-  border-radius: 5px;
+  
+  width: 50px;
+  /* border-radius: 5px; */
 }
 #main{
 

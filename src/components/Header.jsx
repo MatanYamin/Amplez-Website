@@ -8,7 +8,7 @@ function Header() {
             <Navbar />
             <div className='name'>
                 <h1> <span>Zvi Yamin Inc</span></h1>
-                <p className='details'>Israeli app development company. <br/><br/> Based in Jerusalem</p>
+                <p className='details'>Israeli app development company. </p>
                 <div className='header-btns'>
                     {/* <a href='#' className='cv-btn'>Hire Me</a> */}
                     {/* <a href='#' className='cv-btn1'>Download App</a> */}
