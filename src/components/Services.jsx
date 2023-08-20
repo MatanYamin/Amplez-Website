@@ -2,6 +2,7 @@ import React from 'react';
 import Box from './Box';
 import image1 from '../images/s1.png';
 import image2 from '../images/s2.png';
+import snakeImage from '../images/snakeImage.jpg';
 
 function Services() {
     return (
@@ -13,6 +14,14 @@ function Services() {
                 {/* <p>Check out some of our most popular apps!</p> */}
             </div>
             <div className='b-container'>
+                <Box 
+                image={snakeImage}
+                alte='snakeImage'
+                button='To Game'
+                link="https://play.google.com/store/apps/details?id=com.amplez.lg_remote_akb"
+                title="SnakesLTD"
+                details="For VR"
+                />
                 <Box 
                 image={image1}
                 alte='image1'
