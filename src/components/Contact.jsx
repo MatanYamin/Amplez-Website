@@ -3,6 +3,7 @@ import emailjs from "emailjs-com";
 import { useForm } from "react-hook-form";
 import config from "../configur";
 import txt from "../app-ads.txt"
+import {Link} from 'react-scroll';
 
 function Contact() {
 
@@ -91,7 +92,8 @@ function Contact() {
               {new Date().getFullYear()}&nbsp;Zvi Yamin | All Rights Reserved
             </p>
             <br/>
-            <a href="/">HOME</a>
+            <Link to='main' smooth={true} duration={1000}>HOME</Link>
+            {/* <a href="/">HOME</a> */}
         </div>
     )
 }
