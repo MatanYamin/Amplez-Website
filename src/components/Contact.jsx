@@ -92,7 +92,7 @@ function Contact() {
               {new Date().getFullYear()}&nbsp;Zvi Yamin | All Rights Reserved
             </p>
             <br/>
-            <Link to='main' smooth={true} duration={1000}>HOME</Link>
+            <p className="no-edit-cursor"><Link to='main' smooth={true} duration={1000}>HOME</Link></p>
             {/* <a href="/">HOME</a> */}
         </div>
     )

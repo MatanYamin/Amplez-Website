@@ -6,9 +6,10 @@ function Navbar() {
     return (
         <div>
             <nav>
-                <Link to='main' className='logo' smooth={true} duration={1000}>
+            <p className='no-edit-cursor'>
+            <Link to='main' className='logo' smooth={true} duration={1000}>
             <Link to='main' smooth={true} duration={1000}><img src={logo} alt='logo' /></Link>
-                </Link>
+                </Link></p>
                 <input className='menu-btn' type='checkbox' id='menu-btn' />
                 <label className='menu-icon' for='menu-btn'>
                     <span className='nav-icon'></span>
