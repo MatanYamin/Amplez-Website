@@ -12,7 +12,29 @@ function Box(props) {
                  <br/>
                  {props.details}
              </p>
-             <a href={props.link} className='cv-btn'>{props.button}</a>
+
+
+             {props.regularButton !== null && (
+             <a href={props.link} className='cv-btn'>{props.regularButton}</a>
+
+            )}
+
+            {props.specialButton1 !== null && (
+            <>
+            <div className='SnakesLTD-btns'>
+             <a href={props.link1} >
+             <img src={props.specialButton1} alt="Button Image" />
+             </a>
+             &nbsp;&nbsp;&nbsp;&nbsp;
+             <a href={props.link2} >
+             <img src={props.specialButton2} alt="Button Image" />
+             </a>
+             </div>
+             </>
+
+            )}
+
+             {/* <a href={props.link} className='cv-btn'>{props.button1}</a> */}
          </div>
         </div>
     )

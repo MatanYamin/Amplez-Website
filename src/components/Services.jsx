@@ -3,6 +3,8 @@ import Box from './Box';
 import image1 from '../images/s1.png';
 import image2 from '../images/s2.png';
 import snakeImage from '../images/snakeImage.jpg';
+import oculusButtonImage from '../images/availableOnOculus.png';
+import discordButtonImage from '../images/discord-button.png';
 
 function Services() {
     return (
@@ -17,18 +19,23 @@ function Services() {
                 <Box 
                 image={snakeImage}
                 alte='snakeImage'
-                button='To Game'
-                link="https://play.google.com/store/apps/details?id=com.amplez.lg_remote_akb"
-                title="SnakesLTD"
+                regularButton={null}
+                specialButton1 = {oculusButtonImage}
+                specialButton2 = {discordButtonImage}
+                link2="https://discord.gg/Ys6VuBgS"
+                link1="https://www.oculus.com/deeplink/?action=view&path=app/5712013818895184&ref=oculus_desktop"
+                title=""
                 details=""
                 />
-                {/* <div class="text-overlay">
-      <p>Your Text Here</p>
-    </div> */}
+                 <div class="text-overlay">
+                <p>Snakes LTD</p>
+                </div> 
                 <Box 
                 image={image1}
                 alte='image1'
-                button='To App'
+                regularButton='To App'
+                specialButton1 = {null}
+                specialButton2 = {null}
                 link="https://play.google.com/store/apps/details?id=com.amplez.lg_remote_akb"
                 title="Remote For LG webOS Smart TV"
                 details="Over 10,000,000 downloads."
@@ -36,7 +43,9 @@ function Services() {
                 <Box 
                 image={image2}
                 alte='image2'
-                button='To App'
+                regularButton='To App'
+                specialButton1 = {null}
+                specialButton2 = {null}
                 link="https://play.google.com/store/apps/details?id=com.amplez.rokuremote"
                 title="Remote For Roku‏"
                 details="Over 1,000,000 downloads.ﾟ"

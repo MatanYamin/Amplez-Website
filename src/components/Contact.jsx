@@ -93,7 +93,6 @@ function Contact() {
             </p>
             <br/>
             <p className="no-edit-cursor"><Link to='main' smooth={true} duration={1000}>HOME</Link></p>
-            {/* <a href="/">HOME</a> */}
         </div>
     )
 }
