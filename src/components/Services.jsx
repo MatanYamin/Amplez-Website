@@ -28,7 +28,7 @@ function Services() {
                 button='To App'
                 link="https://play.google.com/store/apps/details?id=com.amplez.lg_remote_akb"
                 title="Remote For LG webOS Smart TV"
-                details="Over 5,000,000 downloads."
+                details="Over 10,000,000 downloads."
                 />
                 <Box 
                 image={image2}
