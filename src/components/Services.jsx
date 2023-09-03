@@ -22,6 +22,9 @@ function Services() {
                 title="SnakesLTD"
                 details=""
                 />
+                {/* <div class="text-overlay">
+      <p>Your Text Here</p>
+    </div> */}
                 <Box 
                 image={image1}
                 alte='image1'
