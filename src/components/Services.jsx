@@ -20,7 +20,7 @@ function Services() {
                 button='To Game'
                 link="https://play.google.com/store/apps/details?id=com.amplez.lg_remote_akb"
                 title="SnakesLTD"
-                details="For VR"
+                details=""
                 />
                 <Box 
                 image={image1}
