@@ -380,8 +380,8 @@ background-color: #ffffff;
 }
 
 .b-container {
-  /* display: flex; */
-  display: contents;
+  display: flex;
+  /* display: contents; */
   flex-wrap: wrap; 
   justify-content: center; 
   position: relative;
