@@ -23,7 +23,7 @@ function Services() {
                 specialButton1 = {oculusButtonImage}
                 specialButton2 = {discordButtonImage}
                 link2="https://discord.gg/Ys6VuBgS"
-                link1="https://www.oculus.com/deeplink/?action=view&path=app/5712013818895184&ref=oculus_desktop"
+                link1="https://www.oculus.com/experiences/quest/5712013818895184/?store&item_id=5712013818895184"
                 title=""
                 details=""
                 />
@@ -40,6 +40,7 @@ function Services() {
                 title="Remote For LG webOS Smart TV"
                 details="Over 10,000,000 downloads."
                 />
+                <a id ='boxThree'>
                 <Box 
                 image={image2}
                 alte='image2'
@@ -50,6 +51,7 @@ function Services() {
                 title="Remote For Roku‏"
                 details="Over 1,000,000 downloads.ﾟ"
                 />
+                </a>
             </div>
         </div>
     )
