@@ -370,7 +370,7 @@ background-color: #ffffff;
 .s-box{
   background-color: #ffffff;
   width: 350px;
-  height: 700px;
+  height: 690px;
   margin: 20px;
   border-radius: 10px;
   overflow: hidden;
@@ -426,7 +426,7 @@ background-color: #ffffff;
 
 .s-b-img{
   width: 100%;
-  height: 85%;
+  height: 73%;
 
 }
 .s-b-img img{
@@ -800,7 +800,7 @@ color:#242425;
       }}
       @media(max-width:400px){
           .s-box{
-              width: 100%;
+              width: 90%;
               height:400px;
           }
       }
